@@ -1,0 +1,27 @@
+# 敏感信息和认证文件
+htpasswd
+.env
+
+# 日志文件
+logs/
+*.log
+
+# Docker相关
+.docker/
+docker-compose.override.yml
+
+# 系统和IDE文件
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 备份文件
+*.bak
+*.backup 
